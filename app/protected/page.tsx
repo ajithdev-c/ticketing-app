@@ -46,9 +46,7 @@ export default async function ProtectedPage() {
             <div className="m-2 flex flex-col gap-4"><button className="p-2 w-32 bg-blue-400 rounded-md">{button4}</button></div>
           </div>
         </div>
-
         ))}
-        
       </div>
     </div>
   );
