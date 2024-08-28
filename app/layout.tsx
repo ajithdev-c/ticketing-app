@@ -42,7 +42,7 @@ export default function RootLayout({
                     <Link href={"/"}>Home</Link>
                   </div>
                   <div className="flex justify-end"> 
-                 <><HeaderAuth /> <ThemeSwitcher /></>
+                 <><HeaderAuth /></>
                   </div>
                 </div>
               </nav>
