@@ -10,7 +10,7 @@ export default async function Index() {
         {/* <h2 className="font-medium text-xl mb-4">Next steps</h2>
         {verifySupabase ? <SignUpUserSteps /> : <ConnectSupabaseSteps />} */}
         <h1 className="text-4xl font-bold">Welcome To Ticketing App...</h1>
-        <h2 className="p-2 text-xl font-semibold">SignIn / SignUp for more details</h2>
+        <h2 className="p-2 text-xl font-semibold">SignIn / SignUp for more details...</h2>
       </main>
     </>
   );
