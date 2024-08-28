@@ -4,8 +4,8 @@ import "./globals.css";
 import HeaderAuth from "@/components/header-auth";
 import { ThemeProvider } from "next-themes";
 import { ThemeSwitcher } from "@/components/theme-switcher";
-import { verifySupabase } from "@/utils/supabase/verify-supabase";
-import { EnvVarWarning } from "@/components/env-var-warning";
+// import { verifySupabase } from "@/utils/supabase/verify-supabase";
+// import { EnvVarWarning } from "@/components/env-var-warning";
 import Link from "next/link";
 
 const defaultUrl = process.env.VERCEL_URL
@@ -40,7 +40,7 @@ export default function RootLayout({
                     <Link href={"/"}>Home</Link>
                   </div>
                   <div className="flex justify-end"> 
-                  {!verifySupabase ? <EnvVarWarning /> : <><HeaderAuth /> <ThemeSwitcher /></>}
+                 <><HeaderAuth /> <ThemeSwitcher /></>
                   </div>
                 </div>
               </nav>
